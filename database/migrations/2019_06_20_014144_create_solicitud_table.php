@@ -22,7 +22,8 @@ class CreateSolicitudTable extends Migration
             $table->foreign('fk_id_usuario')->references('id_usuario')->on('usuario');
             $table->foreign('fk_id_contrato')->references('id_contrato')->on('contrato');
             $table->timestamps();
-            $table->time();
+            $table->timestamps();
+
         });
     }
 

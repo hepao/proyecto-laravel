@@ -28,6 +28,13 @@ class CreateSolicitudTable extends Migration
 
 
 
+
+
+
+
+
+
+
         });
     }
 

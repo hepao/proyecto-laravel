@@ -11,4 +11,6 @@
 |
 */
 
-Route::get('/','AdministradorController@index');
+Route::get('Administrador/index','AdministradorController@index');
+Route::get('Administrador/peril','AdministradorController@perfil');
+

@@ -11,10 +11,10 @@
     </button>
     <ul class="nav navbar-nav d-md-down-none">
         <li class="nav-item px-3">
-            <a class="nav-link" href="#">Por asignar</a>
+            <a class="nav-link" href="#">Inicio</a>
         </li>
         <li class="nav-item px-3">
-            <a class="nav-link" href="#">Por asignar</a>
+            <a class="nav-link" href="#">Perfil</a>
         </li>
         <li class="nav-item px-3">
             <a class="nav-link" href="#">Por asignar</a>
@@ -28,12 +28,12 @@
             </a>
             <div class="dropdown-menu dropdown-menu-right">
                 <div class="dropdown-header text-center">
-                    <strong>Account</strong>
+                    <strong>Cuenta</strong>
                 </div>
                 <a class="dropdown-item" href="#">
-                    <i class="fa fa-shield"></i> Lock Account</a>
+                    <i class="fa fa-shield"></i> Configuración cuenta</a>
                 <a class="dropdown-item" href="#">
-                    <i class="fa fa-lock"></i> Logout</a>
+                    <i class="fa fa-lock"></i> Salir</a>
             </div>
         </li>
     </ul>

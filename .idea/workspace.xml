@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5aabf1f-fa0e-4dcb-bb50-5c6e0ca4f3b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/Administrador/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Administrador/perfil.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/proyecto-laravel.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="e5aabf1f-fa0e-4dcb-bb50-5c6e0ca4f3b1" name="Default Changelist" comment="Avancee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdministradorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdministradorController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/core-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/core-ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/core-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/core-ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/core-ui/all/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/core-ui/all/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/core-ui/all/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/core-ui/all/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/core-ui/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/core-ui/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Usuarios/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/laravel-2019-06-20.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-06-20.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Administrador/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Administrador/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/Administrador/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            <state relative-caret-position="340">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -123,9 +102,9 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="hepao &lt;50034742+hepao@users.noreply.github.com&gt;" />
         <option value="favvian &lt;fdvargas05@misena.edu.co&gt;" />
         <option value="fdavidvargas" />
-        <option value="hepao &lt;50034742+hepao@users.noreply.github.com&gt;" />
         <option value="pepe" />
       </list>
     </option>
@@ -379,7 +358,7 @@
       <option name="presentableId" value="Default" />
       <updated>1560990698571</updated>
       <workItem from="1560990699627" duration="5705000" />
-      <workItem from="1561072459482" duration="9072000" />
+      <workItem from="1561072459482" duration="9900000" />
     </task>
     <task id="LOCAL-00001" summary="avance">
       <created>1560995748253</created>
@@ -416,11 +395,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560996780136</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="nuevo avance">
+      <created>1561081855002</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561081855002</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Avancee">
+      <created>1561082023569</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561082023569</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14777000" />
+    <option name="totallyTimeSpent" value="15605000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,11 +426,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -461,12 +456,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="avance" />
-    <MESSAGE value="nuevo avance" />
     <MESSAGE value="nuevo avance x2" />
     <MESSAGE value="nuevo avance x3" />
     <MESSAGE value="nuevo avance x4" />
     <MESSAGE value="nuevo avance x10" />
-    <option name="LAST_COMMIT_MESSAGE" value="nuevo avance x10" />
+    <MESSAGE value="nuevo avance" />
+    <MESSAGE value="Avancee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avancee" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_20_005230_create_tipo_documento_table.php">
@@ -661,9 +657,6 @@
     <entry file="file://$PROJECT_DIR$/../../Github/datos/app/Http/Controllers/UsuariosController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Github/trabajo/resources/views/productos/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Github/trabajo/app/Producto.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -723,10 +716,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../Github/trabajo/resources/views/productos/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Github/trabajo/resources/views/clientes/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Github/trabajo/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Administrador/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        <state relative-caret-position="340">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -24,15 +24,14 @@
     <link href="core-ui/node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="core-ui/node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
     <!-- Main styles for this application-->
-    <link href="core-ui/css/style.css" rel="stylesheet">
+    <link href="core-ui\css\style.min.css" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics-->
 </head>
 <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show aside-menu-lg-show">
 
-@include('core-ui.all.navbar')
-@include('core-ui.all.sidebar')
-
-@include('core-ui.all.aside')
+    @include('core-ui.all.navbar')
+    @include('core-ui.all.sidebar')
+    @include('core-ui.all.aside')
 
 
 

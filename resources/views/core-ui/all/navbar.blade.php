@@ -14,7 +14,7 @@
             <a class="nav-link" href="#">Inicio</a>
         </li>
         <li class="nav-item px-3">
-            <a class="nav-link" href="#">Perfil</a>
+            <a class="nav-link" href="Administrador/perfil.blade.php">Perfil</a>
         </li>
         <li class="nav-item px-3">
             <a class="nav-link" href="#">Por asignar</a>

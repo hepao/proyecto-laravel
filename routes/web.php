@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('Administrador/index','AdministradorController@index');
-Route::get('Administrador/peril','AdministradorController@perfil');
+//Route::get('Administrador/index','AdministradorController@index');
+//Route::get('Administrador/perfil','AdministradorController@perfil');
 
+
+Route::get('Administrador/perfil', ["as"=>"Administrador.perfil", "uses"=>"AdministradorController@perfil"]);
+/*
+Route::get('administrador/edit/{id}', ["as"=>"administrador.edit", "uses"=>"AdministradorController@edit"]);
+//update
+Route::put('administrador/{id}', ["as"=>"administrador.update", "uses"=>"AdministradorController@update"]);
+Route::delete('Administrador/eliminar/{id}', ["as"=>"administrador.destroy", "uses"=>"AdministradorController@destroy"]);*/

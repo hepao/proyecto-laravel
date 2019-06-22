@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Administrador;
+use App\Perfil;
 use Illuminate\Http\Request;
 
 class AdministradorController extends Controller
@@ -13,8 +14,15 @@ class AdministradorController extends Controller
      */
     public function index()
     {
-     return view('Administrador.index');
-     return view('Administrador.perfil');
+     //return view('Administrador.index');
+     //return view('Administrador.perfil');
+
+
+    }
+
+    public function perfil(){
+        $Administradores=Administrador::all();
+        return view('Administrador.perfil', compact('Administradores'));
     }
 
     /**

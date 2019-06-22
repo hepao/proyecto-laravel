@@ -1,14 +1,19 @@
-<!doctype html>
-<html lang="en">
+<!--<!doctype html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Perfil</title>
+    <title>Perfil Administrador</title>
 </head>
-<body>
+<body>-->
+
+@extends('core-ui.layout')
+
+@section('main')
+    <main class="main">
 
 <div class="container">
     <div class="row">
@@ -20,24 +25,36 @@
                     <th>SEGUNDO NOMBRE</th>
                     <th>PRIMER APELLIDO</th>
                     <th>SEGUNDO NOMBRE</th>
+                    <th>DOCUMENTO</th>
                     <th>CORREO PERSONAL</th>
                     <th>CORREO INSTITUCIONAL</th>
-                    <th>FECHA DE NACIMIENTO</th>
+                    <th>EDAD</th>
                 </tr>
-                @foreach($usuario as $usuarios)
+                @foreach($Administradores as $Administrador)
+
                     <tr>
-                        <td>{{$usuarios->primer_nombre}}</td>
-                        <td>{{$usuarios->segundo_nombre}}</td>
-                        <td>{{$usuarios->primer_apellido}}</td>
-                        <td>{{$usuarios->segundo_apellido}}</td>
-                        <td>{{$usuarios->correo_personal}}</td>
-                        <td>{{$usuarios->correo_institucional}}</td>
-                        <td>{{$usuarios->fecha_nacimiento}}</td>
-                    </tr>
+                        <td>{{$Administrador->primer_nombre}}</td>
+                        <td>{{$Administrador->segundo_nombre}}</td>
+                        <td>{{$Administrador->primer_apellido}}</td>
+                        <td>{{$Administrador->segundo_apellido}}</td>
+                        <td>{{$Administrador->documento}}</td>
+                        <td>{{$Administrador->correo_personal}}</td>
+                        <td>{{$Administrador->correo_institucional}}</td>
+                        <td>{{$Administrador->edad}}</td>
+                        <!--<td><a href="route('Administrador.edit', $Administrador->idusuarios)}}" class="btn btn-warning btn-sm">EDITAR</a></td>
+                        <td>
+                            <form action="route('$Administrador.destroy',$Administrador->idusuarios)}}" method="post">
+                                 csrf_field() }}
+                                 method_field('DELETE') }}
+                                <button class="btn btn-danger btn-sm">ELIMINAR</button>
+                            </form>
+                        </td>
+                    </tr>-->
                 @endforeach
 
             </table>
         </div>
+
         <div class="col-md-3">
             <h2>INSERCIONES</h2>
             <form action="usuarios/store" method="post">
@@ -54,15 +71,16 @@
                     <input type="text" name="correo" class="form-control">
                 </div>
                 <hr>
-                <button class="btn btn-info" type="submit">Enviar</button>
+                <button class="btn btn-info btn-block" type="submit">GUARDAR</button>
 
             </form>
         </div>
     </div>
 
+    </main>
+    @endsection
 
-
-</div>
+<!--</div>
 
 </body>
-</html>
+</html>-->

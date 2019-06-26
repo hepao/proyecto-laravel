@@ -9,9 +9,9 @@
     <!-- Tab panes-->
     <div class="tab-content">
         <div class="tab-pane active" id="timeline" role="tabpanel">
-           <div class="container-fluid">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci architecto blanditiis doloremque dolores, eum illum quidem, repudiandae ut vel velit, voluptatem? Animi dignissimos eveniet incidunt maxime nisi pariatur qui!
-           </div>
+            <div class="container-fluid">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci architecto blanditiis doloremque dolores, eum illum quidem, repudiandae ut vel velit, voluptatem? Animi dignissimos eveniet incidunt maxime nisi pariatur qui!
+            </div>
         </div>
     </div>
 </aside>
